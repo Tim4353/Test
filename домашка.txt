@@ -1,0 +1,5 @@
+Как VS Code соединить с Git, склонировать и пушить
+Сверстать структуру страницы
+https://www.figma.com/file/SjHvI8W1yzwJjzyUrCPpsI/House?type=design&node-id=3-838&mode=design
+
+https://live.verstaem.online/
