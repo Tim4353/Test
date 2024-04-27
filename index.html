@@ -3,43 +3,89 @@
 
 <head>
     <meta charset='UTF-8'>
-    <link rel='stylesheet' href='./index.css' />
+    <link rel='stylesheet' href='./src/scss/index.css' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Document</title>
 </head>
 
 <body class='body'>
     <header class='header'>
-        header
+        <img class="header__logo" src="https://live.verstaem.online/house/img/logo.svg">
+        <ul class="header__menu">
+            <li>Репродукции</li>
+            <li>Новинки</li>
+            <li>О нас</li>
+            <li>
+                <img src="./src/icon/cart_wkzkmlmae0dz.svg" />
+            </li>
+        </ul>
     </header>
-    <main class='main'>
-        main
-        <div class="image">
-            image
-        </div>
+    <main class='main br'>
+        <section class="section section1 br">
+            <img src="https://live.verstaem.online/house/img/hero-img.png" />
+            <div class="title">
+                <h1>Реплики картин<br />от<span>Ink. House</span> </h1>
+                <span>
+                    Высокое качество отрисовки на плотной бумаге или<br />льняном холсте. Редкие произведения, доступные
+                    цены.
+                </span>
+                <br />
+                <button>Продукция</button>
+            </div>
+        </section>
+        <section class="contries">
+            <p>Репродукции</p>
+            <div>
+                <button>Франция</button>
+                <button>Германия</button>
+                <button>Англия</button>
+            </div>
+        </section>
         <br>
-        <div class="images">
-            images
-            <div class="picture"></div>
-            <div class="picture"></div>
-            <div class="picture"></div>
-            <div class="picture"></div>
-            <div class="picture"></div>
-            <div class="picture"></div>
-        </div>
+        <section class="cards br">
+            <!-- <div class="card"><img src="https://live.verstaem.online/house/data/images/1.jpg"><span>Марсель Руссо</span>
+                <h5>Охота Амура</h5>
+                <h6>Холст, масло (50х80)</h6>
+                <p>14 500 руб</p><button>В корзину</button>
+            </div> -->
+        </section>
         <br>
-        <div class="image2">
-            image2
-        </div>
+        <section class="image2 br">
+            <img src="https://live.verstaem.online/house/img/newbies-bg.jpg">
+            <h2>Новая коллекция<br>французских авторов</h1>
+                <span>Сложно сказать, почему акционеры крупнейших компаний<br>призывают нас к новым свершениям, которые,
+                    в
+                    свою
+                    очередь,<br> должны быть заблокированы в рамках своих собственных<br> рациональных ограничений.
+                    <br>
+                    Принимая во внимание показатели успешности, граница<br> обучения кадров предопределяет высокую
+                    востребованность<br>направлений прогрессивного развития.
+                </span>
+                <br>
+                <button>Ознакомится</button>
+        </section>
         <br>
-        <div class="image2">
-            image2
-        </div>
+        <section class="image3">
+            <img src="https://live.verstaem.online/house/img/about-img.png" />
+            <div class="team">
+                <h1>Наша команда</h1>
+                <span>
+                    Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить
+                    значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены
+                    отталкиваться от того, что консультация с широким активом.
+                </span>
+                <div class="faces">
+                    <img src="https://live.verstaem.online/house/img/about-1.jpg" />
+                    <img src="https://live.verstaem.online/house/img/about-2.jpg" />
+                    <img src="https://live.verstaem.online/house/img/about-3.jpg" />
+                </div>
+            </div>
+        </section>
     </main>
     <footer class='footer'>
         footer
     </footer>
-    <script src='./index.js' type='module'></script>
+    <script src='./src/js/index.js' type='module'></script>
 </body>
 
 </html>

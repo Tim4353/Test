@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #e1ede6;
+  max-width: 1440px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.header__menu li img {
+  width: 24px;
+  height: 24px;
+}
+
+.main {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  height: 300px;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+}
+.section1 img {
+  height: 300px;
+  width: 300px;
+}
+
+.title {
+  width: 100%;
+}
+.title h1 span {
+  color: green;
+}
+
+.contries {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e1ede6;
+}
+.card img {
+  height: auto;
+  width: 100%;
+}
+.image2 {
+  border: 2px solid black;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.image2 img {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.image3 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  height: 300px;
+  width: 100%;
+  max-width: 700px;
+}
+.image3 img {
+  height: auto;
+}
+
+@media screen and (max-width: 760px) {
+  .image3 {
+    flex-direction: column;
+  }
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.team span {
+  font-size: 10px;
+}
+.team img {
+  width: 36px;
+}
+
+.footer {
+  border: 2px solid green;
+  background-color: #e1ede6;
+  max-width: 1440px;
+  height: 100px;
+  width: 100%;
+}
+
+.br {
+  border: 2px solid red;
+}/*# sourceMappingURL=index.css.map */
